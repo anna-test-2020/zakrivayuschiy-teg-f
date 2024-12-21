@@ -184,7 +184,7 @@
 }
 
 .dialog__icon {
-  mix-blend-mode: difference;
+  /* mix-blend-mode: difference; */
   width: 21px;
   height: 21px;
   position: relative;
