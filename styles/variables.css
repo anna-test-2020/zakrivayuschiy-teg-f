@@ -1,1 +1,40 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font-family: "Inter-Variable", sans-serif;  
+  --header-font-weight: 700;
+  --text-font-weight: 400;
+  --accent-font-family: "PressStart2P-Regular", fantasy;
+
+
+  --color-light: #fff;
+  --color-dark: #000;
+
+
+
+
+}
+/* :root {
+  --color-black: #000;
+  --color-white: #fff;
+
+  --text-color: var(--color-black, #000);
+  --page-background-color: var(--color-white, #fff);
+  --button-text-color: var(--page-background-color, #fff);
+
+  --page-main-font-family: "inter", sans-serif;
+  --page-main-font-weight: 400;
+  --title-font-weight: 700;
+  --page-accent-font-family: "PressStart2P", fantasy;
+
+  --page-background-image: repeating-linear-gradient(
+      to left,
+      #d3d3d3 0 2px,
+      #d3d3d300 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, #d3d3d300 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+
+  --like-main-body-color: none;
+  --like-counter-color: var(--text-color, #000);
+  --like-sparks-color: #ff0000;
+} */
