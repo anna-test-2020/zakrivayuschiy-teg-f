@@ -1,1 +1,17 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --min-layout-inline-size: 375px;
+  --max-layout-inline-size: 700px;
+
+  --main-font-family: "Inter-Variable", sans-serif;
+  --header-font-weight: 700;
+  --text-font-weight: 400;
+  --accent-font-family: "PressStart2P-Regular", fantasy;
+
+  --color-light: #fff;
+  --color-dark: #000;
+
+  --like-counter-fill: var(--color-dark);
+  --like-main-body-fill: none;
+  --like-sparks-fill: #ff0000;
+}
