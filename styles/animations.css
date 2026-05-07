@@ -58,6 +58,11 @@
   transition: fill 0.3s linear 0.05s;
 }
 
+.like-icon.is-liked:hover .main-body {
+  fill: var(--like-sparks-fill, #ff0000);
+  transition: fill 0.3s linear 0.05s;
+}
+
 .like-icon.is-liked .sparks {
   animation: sparks 0.3s ease-in 0.3s;
 }
@@ -85,6 +90,10 @@
 .like-icon:hover .core {
   fill: var(--like-counter-fill, #000);
   transition: fill 0.3s linear;
+}
+
+.like-icon.is-liked:hover .core {
+  fill: var(--like-sparks-fill, #ff0000);
 }
 
 .like-icon:active .core {

@@ -15,10 +15,10 @@
   padding-block-start: 100px;
   padding-block-end: 100px;
   font-family: var(--main-font-family);
-  font-variation-settings: "wght" var(--text-font-weight, 400);
+  font-variation-settings: "wght" var(--text-font-weight, 410);
   background-size: cover;
   background-attachment: fixed;
-  background-color: #818181;
+  background-color: var(--page-color, #8B8B8B);
   background-image:
     repeating-linear-gradient(
       0deg,
@@ -82,10 +82,9 @@
 
 .card__header {
   font-size: 18px;
-  min-block-size: 30px;
-  line-height: 1.2;
+  line-height: 1.22;
   padding: 5px 10px 3px;
-  font-variation-settings: "wght" var(--header-font-weight, 700);
+  font-variation-settings: "wght" var(--header-font-weight, 715);
 }
 
 .card__img-block {
@@ -169,11 +168,10 @@
 }
 
 .card__footer {
-  margin: 25px;
+  margin: 25px 25px 23px;
   display: flex;
   justify-content: end;
   gap: 5px;
-  max-block-size: 38px;
 }
 
 .button {
@@ -205,7 +203,7 @@
   box-shadow: 2px 2px 0 0 var(--color-dark, #000);
 }
 
-.button:after {
+.button::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -215,7 +213,7 @@
   transition: transform 0.5s ease-in-out;
 }
 
-.button:hover:after {
+.button:hover::after {
   transform: scaleX(1);
 }
 
@@ -249,7 +247,7 @@
   font-size: 14px;
   padding: 10px;
   min-inline-size: 130px;
-  /* max-height: 38px; */
+  height: max-content;
 }
 
 .dialog {
